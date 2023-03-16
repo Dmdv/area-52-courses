@@ -9,10 +9,10 @@ edition = "2021"
 crate-type = ["cdylib", "rlib"]
 
 [dependencies]
-cosmwasm-std = "1.0.0-beta"
+cosmwasm-std = "1.2.2"
 schemars = "0.8"
 serde = { version = "1.0.103" }
 
 [dev-dependencies]
-cosmwasm-vm = "1.0.0-beta"
-cosmwasm-schema = "1.0.0-beta"
+cosmwasm-vm = "1.2.2"
+cosmwasm-schema = "1.2.2"
